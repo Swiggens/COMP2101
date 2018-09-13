@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # My third script - helloworldugly.sh
 # This script displays the string "Hello World"
 
