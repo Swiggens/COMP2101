@@ -1,12 +1,21 @@
 #!/bin/bash
 # a script  to issue  a name with a title
 
-
-export MYNAME="KEN SIGGENS"
-mytitle="Superman is "
+##################################################################
+#####  Variables                                              ####
+########################################################="KEN SIGGENS"
+myname="Ken Siggens"
+mytitle="Superman is " "Batman is" "The Flash is"
+title_index=$((RANDOM % ${#titles[@]}))
+mytitle=${titles[$title_index]}
 hostname=$(hostname)
-
-echo "Are you sure ${hostname}, $mytitle ${MYNAME}?"
-
 today=$(date +%A)
+
+##################################################################
+#########    Main                                     ###########
+#############################################################
+welcome_message="
+echo "Are you sure ${hostname}, $mytitle ${myname}?"
+
 echo "Today is ${today}"
+echo wlecome message
