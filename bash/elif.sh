@@ -27,6 +27,6 @@ else echo "Look Deeper"
 fi
 
 
-if [ -i "$filename" ]; then echo  "File exists"
+if [ -r "$filename" ]; then echo  "File exists"
 else echo "Look Deeper"
 fi

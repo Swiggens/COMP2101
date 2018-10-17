@@ -9,4 +9,4 @@ echo "The values for all elements are:
 ${foo[@]}"
 echo "There are ${#foo[@]} key-value pairs in the hash"
 echo "The keys for all elements are:
-${!foo[@]}"
+${!foo[@]}"ls
